@@ -1,0 +1,27 @@
+body {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+      "nav"
+      "hero"
+      "footer";
+  height: 100vh;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.hero {
+  grid-area: hero;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.bi {
+  vertical-align: -.125em;
+  font-size: 1.5em;
+}
