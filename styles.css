@@ -25,3 +25,9 @@ body {
   vertical-align: -.125em;
   font-size: 1.5em;
 }
+
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}

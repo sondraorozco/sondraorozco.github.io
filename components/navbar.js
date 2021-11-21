@@ -16,7 +16,7 @@ var menuContent = [
 ];
 
 // Build reuseable Bootstrap nav bar
-function nav() {
+function navbar() {
   let target = document.getElementById('nav');
   target.classList.add('navbar', 'navbar-expand-lg', 'bg-dark', 'navbar-dark', 'py-3');
 
@@ -61,4 +61,4 @@ function nav() {
 
 }
 
-nav();
+navbar();
