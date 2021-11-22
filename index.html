@@ -8,7 +8,8 @@
   <title>Sondra Orozco's Portfolio</title>
 </head>
 
-<body>
+<body id="bootstrap-overrides">
+
 <!-- Navbar -->
 <nav id="nav">
   <script src="./components/navbar.js"></script>
@@ -19,10 +20,10 @@
   <div class="container">
     <div class="d-md-flex align-items-center justify-content-between">
       <div>
-        <h1>&#x1F44B Hi! I'm <span class="text-info">Sondra</span>.</h1>
-        <p class="lead my-4">I'm a product manager and entrepreneur who is learning to code! I'm currently a student in the MIT xPro Full-Stack Web Development course. On this site I'll share my adventures into coding and the projects I'm working on.</p>
-        <a class="btn btn-primary btn-lg mb-1" href="about.html" role="button">About Me</a>
-        <a class="btn btn-secondary btn-lg mx-1 mb-1" href="projects.html" role="button">My Projects</a>
+        <h1>&#x1F44B Hi! I'm <span class="s-text-pink-hightlight">Sondra</span>.</h1>
+        <p class="lead my-4">I'm a product manager and entrepreneur who is learning to code! I'm currently a student in the MIT xPro Full Stack Development course.</p>
+        <a class="btn btn-lg mb-1 s-btn-primary" href="about.html" role="button">About Me</a>
+        <a class="btn btn-lg mx-1 mb-1 s-btn-secondary" href="projects.html" role="button">My Projects</a>
       </div>
       <img class="img-fluid w-50 rounded-circle px-5" src="img/profile-pic.jpg" alt="Sondra's profile picture">
     </div>
@@ -31,11 +32,13 @@
 
 
 <!-- Footer -->
-<div class="container">
-  <footer id="footer">
-    <script src="./components/footer.js"></script>
-  </footer>
-</div>
+<section class="s-footer">
+  <div class="container">
+    <footer id="footer">
+      <script src="./components/footer.js"></script>
+    </footer>
+  </div>
+</section>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

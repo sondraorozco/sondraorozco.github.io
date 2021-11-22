@@ -8,7 +8,8 @@
   <title>Projects | Sondra Orozco</title>
 </head>
 
-<body>
+<body id="bootstrap-overrides">
+
 <!-- Navbar -->
 <nav id="nav">
   <script src="./components/navbar.js"></script>
@@ -19,10 +20,10 @@
   <div class="container">
     <div class="d-md-flex align-items-center justify-content-between">
       <div>
-        <h1>My <span class="text-info">Projects</span>.</h1>
+        <h1>My <span class="s-text-blue-highlight">Projects</span>.</h1>
         <p class="lead my-4">Here are a few projects to showcase the skills I'm learning in this bootcamp.</p>
-        <a class="btn btn-primary btn-lg mb-1" href="#mit" role="button">MIT xPro Projects</a>
-        <a class="btn btn-secondary btn-lg mx-1 mb-1" href="#fun" role="button">Fun Projects</a>
+        <a class="btn s-btn-primary btn-lg mb-1" href="#mit" role="button">MIT xPro Projects</a>
+        <a class="btn s-btn-secondary btn-lg mx-1 mb-1" href="#fun" role="button">Fun Projects</a>
       </div>
       <img class="img-fluid w-50 px-5" src="img/undraw_web_development_0l6v.svg" alt="Illustration of a woman working on a laptop building websites">
     </div>
@@ -33,30 +34,32 @@
 <section id="mit-xpro-projects">
   <div class="container py-5">
     <h2>MIT xPro Course Projects</h2>
-    <p>These projects were assignments from the course.</p>
+    <p style="width: 70%;">These projects, using Javascript, CSS, and HTML, were assignments I completed as part of the MIT xPRO Professional Certificate in Coding: Full Stack Development with MERN course.</p>
 
-    <div class="project-cards" id="cat-mit-xpro"></div>
+    <div class="project-cards py-3" id="cat-mit-xpro"></div>
   </div>
 </section>
 
 
 <section id="fun-projects">
   <div class="container py-5">
-    <h2>For Fun Projects</h2>
-    <p>These projects are fun things I've worked out outside of the course.</p>
+    <h2>Projects for Fun</h2>
+    <p style="width: 70%;">These projects are fun things I've worked out outside of the course.</p>
 
-    <div class="project-cards" id="cat-fun"></div>
+    <div class="project-cards py-3" id="cat-fun"></div>
   </div>
 </section>
 
 <script src="./components/portfolio.js"></script>
 
 <!-- Footer -->
-<div class="container">
-  <footer id="footer">
-    <script src="./components/footer.js"></script>
-  </footer>
-</div>
+<section class="s-footer">
+  <div class="container">
+    <footer id="footer">
+      <script src="./components/footer.js"></script>
+    </footer>
+  </div>
+</section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

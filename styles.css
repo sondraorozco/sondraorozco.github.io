@@ -31,3 +31,26 @@ body {
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
+
+/* styles to override Bootstrap's default color palette */
+.s-btn-primary {
+  background-color: #1B998B;
+  color: white;
+}
+
+.s-btn-secondary {
+  background-color: #5E6B77;
+  color: white;
+}
+
+.s-footer {
+  background-color: #F0EFF4;
+}
+
+.s-text-pink-hightlight {
+  color: #A13D63;
+}
+
+.s-text-blue-highlight {
+  color: #506DCE;
+}

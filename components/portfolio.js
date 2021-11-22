@@ -4,7 +4,7 @@ var projects = [
     githubLink: 'https://github.com/sondraorozco/pacmen',
     previewLink: 'https://github.com/sondraorozco/pacmen',
     imageUrl: 'img/pacmen-thumbnail.png',
-    description: 'Lorem ipsum',
+    description: 'This project uses Javascript to produce Pacman-like images that will move across the screen.',
     category: 'mit-xpro'
   },
   {
@@ -12,7 +12,7 @@ var projects = [
     githubLink: 'https://github.com/sondraorozco/eyes',
     previewLink: 'https://github.com/sondraorozco/eyes',
     imageUrl: 'img/eyes-thumbnail.png',
-    description: 'Lorem ipsum',
+    description: 'This project uses Javascript to move two illustrated eyes that follow the user\'s mouse cursor.',
     category: 'mit-xpro'
   },
   {
@@ -20,22 +20,22 @@ var projects = [
     githubLink: 'https://github.com/sondraorozco/bus',
     previewLink: 'https://github.com/sondraorozco/bus',
     imageUrl: 'img/bus-thumbnail.png',
-    description: 'Lorem ipsum',
+    description: 'This project uses Javascript and the Mapbox APi to animate the movement of a bus along its route.',
     category: 'mit-xpro'
   },
   {
     name: 'Snake',
     githubLink: 'https://github.com/sondraorozco/snake',
     previewLink: 'https://github.com/sondraorozco/snake',
-    imageUrl: '',
-    description: 'Lorem ipsum',
+    imageUrl: 'img/snake-thumbnail.png',
+    description: 'I used Javascript to recreate the classic computer game "Snake"',
     category: 'fun'
   },
   {
     name: 'CBD Examine',
     previewLink: 'https://www.cbdexamine.com',
-    imageUrl: '',
-    description: 'Lorem ipsum',
+    imageUrl: 'img/cbdexamine-thumbnail.png',
+    description: 'I built this CBD product review website with Webflow, using custom javascript to create dynamic page templates.',
     category: 'fun'
   }
 ];
@@ -48,7 +48,7 @@ function showProjects() {
 
     // add card to the correct section of the page
     let newCard = document.createElement('div');
-    newCard.classList.add('card', 'shadow');
+    newCard.classList.add('card', 'shadow', 'px-2', 'py-3');
     target.appendChild(newCard);
 
     // add img
