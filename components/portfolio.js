@@ -82,7 +82,7 @@ function showProjects() {
     // add links
     if (projects[i].previewLink) {
       let newLink1 = document.createElement('a');
-      newLink1.classList.add('card-link');
+      newLink1.classList.add('card-link', 's-card-link');
       newLink1.href = projects[i].previewLink;
       newLink1.innerHTML = 'Live preview'
       newDiv2.appendChild(newLink1);
@@ -90,7 +90,7 @@ function showProjects() {
       
     if (projects[i].githubLink) {
       let newLink2 = document.createElement('a');
-      newLink2.classList.add('card-link');
+      newLink2.classList.add('card-link', 's-card-link');
       newLink2.href = projects[i].githubLink;
       newLink2.innerHTML = 'Github repo'
       newDiv2.appendChild(newLink2);

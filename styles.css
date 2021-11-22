@@ -4,7 +4,7 @@ body {
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
       "nav"
-      "hero"
+      "content"
       "footer";
   height: 100vh;
 }
@@ -13,8 +13,8 @@ body {
   grid-area: nav;
 }
 
-.hero {
-  grid-area: hero;
+.content {
+  grid-area: content;
 }
 
 .footer {

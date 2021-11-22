@@ -15,42 +15,48 @@
   <script src="./components/navbar.js"></script>
 </nav>
 
-<!-- Hero -->
-<section id="hero" class="p-5 bg-light text-center text-sm-start">
-  <div class="container">
-    <div class="d-md-flex align-items-center justify-content-between">
-      <div>
-        <h1>My <span class="s-text-blue-highlight">Projects</span>.</h1>
-        <p class="lead my-4">Here are a few projects to showcase the skills I'm learning in this bootcamp.</p>
-        <a class="btn s-btn-primary btn-lg mb-1" href="#mit" role="button">MIT xPro Projects</a>
-        <a class="btn s-btn-secondary btn-lg mx-1 mb-1" href="#fun" role="button">Fun Projects</a>
+<!-- Content -->
+<section class="content">
+
+  <!-- Hero -->
+  <section id="hero" class="p-5 bg-light text-center text-sm-start">
+    <div class="container">
+      <div class="d-md-flex align-items-center justify-content-between">
+        <div>
+          <h1>My <span class="s-text-blue-highlight">Projects</span>.</h1>
+          <p class="lead my-4">Here are a few projects to showcase the skills I'm learning in this bootcamp.</p>
+          <a class="btn s-btn-primary btn-lg mb-1" href="#mit-xpro-projects" role="button">MIT xPro Projects</a>
+          <a class="btn s-btn-secondary btn-lg mx-1 mb-1" href="#fun-projects" role="button">Fun Projects</a>
+        </div>
+        <img class="img-fluid w-50 px-5" src="img/undraw_web_development_0l6v.svg" alt="Illustration of a woman working on a laptop building websites">
       </div>
-      <img class="img-fluid w-50 px-5" src="img/undraw_web_development_0l6v.svg" alt="Illustration of a woman working on a laptop building websites">
     </div>
-  </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="mit-xpro-projects">
+    <div class="container py-5">
+      <h2>MIT xPro Course Projects</h2>
+      <p style="width: 70%;">These projects, using Javascript, CSS, and HTML, were assignments I completed as part of the MIT xPRO Professional Certificate in Coding: Full Stack Development with MERN course.</p>
+
+      <div class="project-cards py-3" id="cat-mit-xpro"></div>
+    </div>
+  </section>
+
+
+  <section id="fun-projects">
+    <div class="container py-5">
+      <h2>Projects for Fun</h2>
+      <p style="width: 70%;">These projects are fun things I've worked out outside of the course.</p>
+
+      <div class="project-cards py-3" id="cat-fun"></div>
+    </div>
+  </section>
+
+  <script src="./components/portfolio.js"></script>
+
+<!-- End Content Section -->
 </section>
-
-<!-- Projects -->
-<section id="mit-xpro-projects">
-  <div class="container py-5">
-    <h2>MIT xPro Course Projects</h2>
-    <p style="width: 70%;">These projects, using Javascript, CSS, and HTML, were assignments I completed as part of the MIT xPRO Professional Certificate in Coding: Full Stack Development with MERN course.</p>
-
-    <div class="project-cards py-3" id="cat-mit-xpro"></div>
-  </div>
-</section>
-
-
-<section id="fun-projects">
-  <div class="container py-5">
-    <h2>Projects for Fun</h2>
-    <p style="width: 70%;">These projects are fun things I've worked out outside of the course.</p>
-
-    <div class="project-cards py-3" id="cat-fun"></div>
-  </div>
-</section>
-
-<script src="./components/portfolio.js"></script>
 
 <!-- Footer -->
 <section class="s-footer">
