@@ -2,7 +2,7 @@ var projects = [
   {
     name: 'Pacmen Factory',
     githubLink: 'https://github.com/sondraorozco/pacmen',
-    previewLink: 'https://github.com/sondraorozco/pacmen',
+    previewLink: 'https://sondraorozco.github.io/pacmen/',
     imageUrl: 'img/pacmen-thumbnail.png',
     description: 'This project uses Javascript to produce Pacman-like images that will move across the screen.',
     category: 'mit-xpro'
@@ -10,7 +10,7 @@ var projects = [
   {
     name: 'Moving Eyes',
     githubLink: 'https://github.com/sondraorozco/eyes',
-    previewLink: 'https://github.com/sondraorozco/eyes',
+    previewLink: 'https://sondraorozco.github.io/eyes/',
     imageUrl: 'img/eyes-thumbnail.png',
     description: 'This project uses Javascript to move two illustrated eyes that follow the user\'s mouse cursor.',
     category: 'mit-xpro'
@@ -18,7 +18,7 @@ var projects = [
   {
     name: 'Bus Route Map',
     githubLink: 'https://github.com/sondraorozco/bus',
-    previewLink: 'https://github.com/sondraorozco/bus',
+    previewLink: 'https://sondraorozco.github.io/bus/',
     imageUrl: 'img/bus-thumbnail.png',
     description: 'This project uses Javascript and the Mapbox APi to animate the movement of a bus along its route.',
     category: 'mit-xpro'
@@ -26,7 +26,7 @@ var projects = [
   {
     name: 'Snake',
     githubLink: 'https://github.com/sondraorozco/snake',
-    previewLink: 'https://github.com/sondraorozco/snake',
+    previewLink: 'https://sondraorozco.github.io/snake/',
     imageUrl: 'img/snake-thumbnail.png',
     description: 'I used Javascript to recreate the classic computer game "Snake"',
     category: 'fun'
