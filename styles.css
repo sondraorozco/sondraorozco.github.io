@@ -55,3 +55,22 @@ body {
 .s-bio-heading {
   text-decoration: underline;
 }
+
+a.s-card-link:link, .bio a:link {
+  color: #1b998b;
+}
+
+/* visited link */
+a.s-card-link:visited, .bio a:visited {
+  color: #5e6b77;
+}
+
+/* mouse over link */
+a.s-card-link:hover, .bio a:hover {
+  color: #a13d63;
+}
+
+/* selected link */
+a.s-card-link:active, .bio a:active {
+  color: #1b998b;
+}
