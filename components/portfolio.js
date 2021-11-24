@@ -20,7 +20,7 @@ var projects = [
     githubLink: 'https://github.com/sondraorozco/bus',
     previewLink: 'https://sondraorozco.github.io/bus/',
     imageUrl: 'img/bus-thumbnail.png',
-    description: 'This project uses Javascript and the Mapbox APi to animate the movement of a bus along its route.',
+    description: 'This project uses Javascript and the Mapbox API to animate the movement of a bus along its route.',
     category: 'mit-xpro'
   },
   {
