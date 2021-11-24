@@ -11,7 +11,7 @@ var menuContent = [
   },
   {
     label: 'Contact',
-    link: '#'
+    link: 'about.html#contact'
   }
 ];
 

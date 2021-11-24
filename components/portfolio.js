@@ -28,14 +28,14 @@ var projects = [
     githubLink: 'https://github.com/sondraorozco/snake',
     previewLink: 'https://sondraorozco.github.io/snake/',
     imageUrl: 'img/snake-thumbnail.png',
-    description: 'I used Javascript to recreate the classic computer game "Snake"',
+    description: 'I used Javascript to recreate the classic computer game "Snake". Players can move the snake to eat apples, but must avoid hitting their own tail.',
     category: 'fun'
   },
   {
     name: 'CBD Examine',
     previewLink: 'https://www.cbdexamine.com',
     imageUrl: 'img/cbdexamine-thumbnail.png',
-    description: 'I built this CBD product review website with Webflow, using custom javascript to create dynamic page templates.',
+    description: 'I built this CBD product review website with Webflow, using custom javascript to create dynamic page templates and user interactions.',
     category: 'fun'
   }
 ];

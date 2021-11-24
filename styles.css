@@ -51,3 +51,7 @@ body {
 .s-text-blue-highlight {
   color: #506DCE;
 }
+
+.s-bio-heading {
+  text-decoration: underline;
+}
